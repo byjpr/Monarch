@@ -17,25 +17,10 @@ Services Provided
 
 What do you get if you point Sovereign at a server? All kinds of good stuff!
 
--   [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) over SSL via [Dovecot](http://dovecot.org/), complete with full text search provided by [Solr](https://lucene.apache.org/solr/).
--   [POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol) over SSL, also via Dovecot
--   [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) over SSL via Postfix, including a nice set of [DNSBLs](https://en.wikipedia.org/wiki/DNSBL) to discard spam before it ever hits your filters.
--   Virtual domains for your email, backed by [PostgreSQL](http://www.postgresql.org/).
--   Spam fighting via [Rspamd](https://www.rspamd.com/).
--   Mail server verification using [DKIM](http://www.dkim.org/) and [DMARC](http://www.dmarc.org/) so the Internet knows your mailserver is legit.
 -   Secure on-disk storage for email and more via [EncFS](http://www.arg0.net/encfs).
--   Webmail via [Roundcube](http://www.roundcube.net/).
--   Mobile push notifications via [Z-Push](http://z-push.sourceforge.net/soswp/index.php?pages_id=1&t=home).
--   Email client [automatic configuration](https://developer.mozilla.org/en-US/docs/Mozilla/Thunderbird/Autoconfiguration).
--   Jabber/[XMPP](http://xmpp.org/) instant messaging via [Prosody](http://prosody.im/).
 -   An RSS Reader via [Selfoss](http://selfoss.aditu.de/).
--   [CalDAV](https://en.wikipedia.org/wiki/CalDAV) and [CardDAV](https://en.wikipedia.org/wiki/CardDAV) to keep your calendars and contacts in sync, via [ownCloud](http://owncloud.org/).
--   Your own private storage cloud via [ownCloud](http://owncloud.org/).
--   Your own VPN server via [OpenVPN](http://openvpn.net/index.php/open-source.html).
--   An IRC bouncer via [ZNC](http://wiki.znc.in/ZNC).
 -   [Monit](http://mmonit.com/monit/) to keep everything running smoothly (and alert you when it’s not).
 -   [collectd](http://collectd.org/) to collect system statistics.
--   Web hosting (ex: for your blog) via [Apache](https://www.apache.org/).
 -   Firewall management via [Uncomplicated Firewall (ufw)](https://wiki.ubuntu.com/UncomplicatedFirewall).
 -   Intrusion prevention via [fail2ban](http://www.fail2ban.org/) and rootkit detection via [rkhunter](http://rkhunter.sourceforge.net).
 -   SSH configuration preventing root login and insecure password authentication

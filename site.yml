@@ -8,13 +8,9 @@
 
   roles:
     - common
-    - blog
-    - ircbouncer
-    - xmpp
-    - owncloud
-    - vpn
     - tarsnap
     - news
     - git
+    - gitea
     - readlater
     - monitoring  # Monitoring role should be last. See roles/monitoring/README.md
